@@ -7,11 +7,12 @@
     text-decoration: none;
     list-style: none;
 }
+/* se cambia color de negro en text color a blanco*/
 :root{
     --bg-color: #fff;
-    --text-color: #0f172a;
-    --main-color: #6b7280;
-    --other-color: #334155;
+    --text-color: #3b435a;
+    --main-color: #c3cad4;
+    --other-color: #767779;
     --big-font: 4.3rem;
     --medium-font: 2.15rem;
     --h2-font: 2.2rem;
@@ -89,11 +90,12 @@ header{
 section{
     padding: 100px 11% 90px;
 }
+/* se cambia color de background-color a gris*/
 .home{
     height: 100vh;
     width: 100%;
     /*background-image: url(../images/background.jpg);*/
-    background-color: #e3ffe6;
+    background-color: #d3d6d3;
     background-size: cover;
     position: relative;
     display: grid;
@@ -214,6 +216,7 @@ span{
 .box{
     position: relative;
 }
+/* se mueve cuadro hacia la derecha*/
 .box-img img{
     width: 100%;
     height: auto;
@@ -421,9 +424,9 @@ span{
         height: 117vh;
     }
     .home-img img{
-        width: 500px;
-        max-width: 60vh;
-        height: auto;
+        width: 600px;
+        max-width: 70vh;
+        height: 10px;
     }
     .home-text{
         padding-top: 50px;
